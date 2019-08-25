@@ -1,0 +1,7 @@
+@Test01
+Feature: login Feature
+
+  @Test01
+  Scenario: print something [90m# MyFeatures/login.feature:5[0m
+    [32mGiven [0m[32mokay[0m              [90m# LoginPageStepDef.okay()[0m
+    [32mThen [0m[32mBye[0m                [90m# LoginPageStepDef.bye()[0m

@@ -1,0 +1,38 @@
+[
+  {
+    "source": "okay",
+    "steps": [
+      {
+        "name": "okay",
+        "aggregatedDurations": {
+          "average": 0.0026696,
+          "median": 0.0026696
+        },
+        "durations": [
+          {
+            "duration": 0.0026696,
+            "location": "MyFeatures/login.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Bye",
+    "steps": [
+      {
+        "name": "Bye",
+        "aggregatedDurations": {
+          "average": 0.0040215,
+          "median": 0.0040215
+        },
+        "durations": [
+          {
+            "duration": 0.0040215,
+            "location": "MyFeatures/login.feature:7"
+          }
+        ]
+      }
+    ]
+  }
+]
