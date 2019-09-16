@@ -1,35 +1,233 @@
 [
   {
-    "source": "okay",
+    "source": "User enter HomePage to click Manage cases button",
     "steps": [
       {
-        "name": "okay",
+        "name": "User enter HomePage to click Manage cases button",
         "aggregatedDurations": {
-          "average": 0.0026696,
-          "median": 0.0026696
+          "average": 0.6788704,
+          "median": 0.6788704
         },
         "durations": [
           {
-            "duration": 0.0026696,
-            "location": "MyFeatures/login.feature:6"
+            "duration": 0.6788704,
+            "location": "MyFeatures/application.feature:6"
           }
         ]
       }
     ]
   },
   {
-    "source": "Bye",
+    "source": "User select Eligibility, BranchOfService, DutyStatus, Rank and Contribution Mode",
     "steps": [
       {
-        "name": "Bye",
+        "name": "User select Eligibility, BranchOfService, DutyStatus, Rank and Contribution Mode",
         "aggregatedDurations": {
-          "average": 0.0040215,
-          "median": 0.0040215
+          "average": 0.4654081,
+          "median": 0.4654081
         },
         "durations": [
           {
-            "duration": 0.0040215,
-            "location": "MyFeatures/login.feature:7"
+            "duration": 0.4654081,
+            "location": "MyFeatures/application.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User click Next button",
+    "steps": [
+      {
+        "name": "User click Next button",
+        "aggregatedDurations": {
+          "average": 0.1861848,
+          "median": 0.1861848
+        },
+        "durations": [
+          {
+            "duration": 0.1861848,
+            "location": "MyFeatures/application.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User input search to find AFBA case",
+    "steps": [
+      {
+        "name": "User input search to find AFBA case",
+        "aggregatedDurations": {
+          "average": 0.1927671,
+          "median": 0.1927671
+        },
+        "durations": [
+          {
+            "duration": 0.1927671,
+            "location": "MyFeatures/application.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "click the AFBA case",
+    "steps": [
+      {
+        "name": "click the AFBA case",
+        "aggregatedDurations": {
+          "average": 1.7621272,
+          "median": 1.7621272
+        },
+        "durations": [
+          {
+            "duration": 1.7621272,
+            "location": "MyFeatures/application.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User input DepartmentCode and SourceCode",
+    "steps": [
+      {
+        "name": "User input DepartmentCode and SourceCode",
+        "aggregatedDurations": {
+          "average": 0.3005546,
+          "median": 0.3005546
+        },
+        "durations": [
+          {
+            "duration": 0.3005546,
+            "location": "MyFeatures/application.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User click Show Coverage Options button",
+    "steps": [
+      {
+        "name": "User click Show Coverage Options button",
+        "aggregatedDurations": {
+          "average": 2.2161206,
+          "median": 2.2161206
+        },
+        "durations": [
+          {
+            "duration": 2.2161206,
+            "location": "MyFeatures/application.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User select firstOption",
+    "steps": [
+      {
+        "name": "User select firstOption",
+        "aggregatedDurations": {
+          "average": 0.5959913,
+          "median": 0.5959913
+        },
+        "durations": [
+          {
+            "duration": 0.5959913,
+            "location": "MyFeatures/application.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User input Sponsor SSN and click Next button",
+    "steps": [
+      {
+        "name": "User input Sponsor SSN and click Next button",
+        "aggregatedDurations": {
+          "average": 3.4276902,
+          "median": 3.4276902
+        },
+        "durations": [
+          {
+            "duration": 3.4276902,
+            "location": "MyFeatures/application.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User select yes or No for Other Insurance option",
+    "steps": [
+      {
+        "name": "User select yes or No for Other Insurance option",
+        "aggregatedDurations": {
+          "average": 0.2057024,
+          "median": 0.2057024
+        },
+        "durations": [
+          {
+            "duration": 0.2057024,
+            "location": "MyFeatures/application.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User select Yes or No for Better Alternative options",
+    "steps": [
+      {
+        "name": "User select Yes or No for Better Alternative options",
+        "aggregatedDurations": {
+          "average": 1.0121373,
+          "median": 1.0121373
+        },
+        "durations": [
+          {
+            "duration": 1.0121373,
+            "location": "MyFeatures/application.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "create New Enrollment",
+    "steps": [
+      {
+        "name": "create New Enrollment",
+        "aggregatedDurations": {
+          "average": 2.2059675,
+          "median": 2.2059675
+        },
+        "durations": [
+          {
+            "duration": 2.2059675,
+            "location": "MyFeatures/application.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User input Sponsor firstName, lastName, dateOfBirth",
+    "steps": [
+      {
+        "name": "User input Sponsor firstName, lastName, dateOfBirth",
+        "aggregatedDurations": {
+          "average": 0.6852312,
+          "median": 0.6852312
+        },
+        "durations": [
+          {
+            "duration": 0.6852312,
+            "location": "MyFeatures/application.feature:11"
           }
         ]
       }

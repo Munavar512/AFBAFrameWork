@@ -1,7 +1,134 @@
 @Test01
-Feature: login Feature
+Feature: application Feature
 
   @Test01
-  Scenario: print something [90m# MyFeatures/login.feature:5[0m
-    [32mGiven [0m[32mokay[0m              [90m# LoginPageStepDef.okay()[0m
-    [32mThen [0m[32mBye[0m                [90m# LoginPageStepDef.bye()[0m
+  Scenario: eApp application Feature test Scenario                                       [90m# MyFeatures/application.feature:4[0m
+    [32mWhen [0m[32mUser enter HomePage to click Manage cases button[0m                                [90m# ApplicationPageStepDef.user_enter_HomePage_to_click_Manage_cases_button()[0m
+    [32mThen [0m[32mUser input search to find AFBA case[0m                                             [90m# ApplicationPageStepDef.user_input_search_to_find_AFBA_case()[0m
+    [32mAnd [0m[32mclick the AFBA case[0m                                                              [90m# ApplicationPageStepDef.click_the_AFBA_case()[0m
+    [32mThen [0m[32mcreate New Enrollment[0m                                                           [90m# ApplicationPageStepDef.create_New_Enrollment()[0m
+    [32mThen [0m[32mUser input Sponsor SSN and click Next button[0m                                    [90m# ApplicationPageStepDef.user_input_Sponsor_SSN_and_click_Next_button()[0m
+    [32mAnd [0m[32mUser input Sponsor firstName, lastName, dateOfBirth[0m                              [90m# ApplicationPageStepDef.user_input_Sponsor_firstName_lastName_dateOfBirth()[0m
+    [32mAnd [0m[32mUser select Eligibility, BranchOfService, DutyStatus, Rank and Contribution Mode[0m [90m# ApplicationPageStepDef.user_select_Eligibility_BranchOfService_DutyStatus_Rank_and_Contribution_Mode()[0m
+    [32mThen [0m[32mUser input DepartmentCode and SourceCode[0m                                        [90m# ApplicationPageStepDef.user_input_DepartmentCode_and_SourceCode()[0m
+    [32mThen [0m[32mUser click Show Coverage Options button[0m                                         [90m# ApplicationPageStepDef.user_click_Show_Coverage_Options_button()[0m
+    [32mAnd [0m[32mUser select firstOption[0m                                                          [90m# ApplicationPageStepDef.user_select_firstOption()[0m
+    [32mThen [0m[32mUser click Next button[0m                                                          [90m# ApplicationPageStepDef.User_click_Next_button()[0m
+    [32mAnd [0m[32mUser select yes or No for Other Insurance option[0m                                 [90m# ApplicationPageStepDef.user_select_yes_or_No_for_Other_Insurance_option()[0m
+    [32mThen [0m[32mUser select Yes or No for Better Alternative options[0m                            [90m# ApplicationPageStepDef.user_select_Yes_or_No_for_Better_Alternative_options()[0m
+    [31mThen [0m[31mcilck the Next button[0m                                                           [90m# ApplicationPageStepDef.cilck_the_Next_button()[0m
+      [31morg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=77.0.3865.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALXLWX2304', ip: '10.120.5.31', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.75, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\MABABA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63473}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d38271d28f803bd4004181419890afce
+*** Element info: {Using=xpath, value=//button[@class='btn btn-success btn-next']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at stepdefination.ApplicationPageStepDef.cilck_the_Next_button(ApplicationPageStepDef.java:168)
+	at ✽.cilck the Next button(MyFeatures/application.feature:28)
+[0m
+    [36mAnd [0m[36mUser select Sponsor gender[0m                                                       [90m# ApplicationPageStepDef.user_select_Sponsor_gender()[0m
+    [36mThen [0m[36mUser input Sponsor height and weight[0m                                            [90m# ApplicationPageStepDef.user_input_Sponsor_height_and_weight()[0m
+    [36mThen [0m[36mUser input Sponsor address, Email and contact numbers[0m                           [90m# ApplicationPageStepDef.user_input_Sponsor_address_Email_and_contact_numbers()[0m
+    [36mThen [0m[36mUser click Next button[0m                                                          [90m# ApplicationPageStepDef.User_click_Next_button()[0m
+    [36mAnd [0m[36mUser click Next button[0m                                                           [90m# ApplicationPageStepDef.User_click_Next_button()[0m
+    [36mAnd [0m[36mUser enter Sponsor beneficiary fullName SSN Relationship DOB[0m                     [90m# ApplicationPageStepDef.user_enter_Sponsor_beneficiary_fullName_SSN_Relationship_DOB()[0m
+    [36mThen [0m[36mUser click Next buuton for next step[0m                                            [90m# ApplicationPageStepDef.user_click_Next_buuton_for_next_step()[0m
+    [36mThen [0m[36mUser click Deducation day[0m                                                       [90m# ApplicationPageStepDef.user_click_Deducation_day()[0m
+    [36mThen [0m[36mUser select Deducation day[0m                                                      [90m# ApplicationPageStepDef.user_select_Deducation_day()[0m
+    [36mAnd [0m[36mUser input Credit Card Number, Expiration Date and Cvv[0m                           [90m# ApplicationPageStepDef.user_input_Credit_Card_Number_Expiration_Date_and_Cvv()[0m
+    [36mThen [0m[36mUser click Signing in-person button[0m                                             [90m# ApplicationPageStepDef.user_click_Signing_in_person_button()[0m
+    [36mThen [0m[36mUser click I agree to this coverage and ready to sign button[0m                    [90m# ApplicationPageStepDef.user_click_I_agree_to_this_coverage_and_ready_to_sign_button()[0m
+    [36mThen [0m[36mUser click the Review Application Ducuments[0m                                     [90m# ApplicationPageStepDef.user_click_the_Review_Application_Ducuments()[0m
+    [36mThen [0m[36mUser Close the Application[0m                                                      [90m# ApplicationPageStepDef.user_Close_the_Application()[0m
+    [36mThen [0m[36mUser select Paper radio button[0m                                                  [90m# ApplicationPageStepDef.user_select_Paper_radio_button()[0m
+    [36mAnd [0m[36mUser input sponsor lastName[0m                                                      [90m# ApplicationPageStepDef.user_input_sponsor_lastName()[0m
+    [36mAnd [0m[36mUser input Last four SSN number[0m                                                  [90m# ApplicationPageStepDef.user_input_Last_four_SSN_number()[0m
+    [36mThen [0m[36mUser Click Sign button[0m                                                          [90m# ApplicationPageStepDef.user_Click_Sign_button()[0m
+    [36mAnd [0m[36mUser click Sign button for Angent eSignature[0m                                     [90m# ApplicationPageStepDef.user_click_Sign_button_for_Angent_eSignature()[0m
+    [36mThen [0m[36mback to Home page[0m                                                               [90m# ApplicationPageStepDef.back_to_Home_page()[0m
+    [36mAnd [0m[36mclick View Transmittals button[0m                                                   [90m# ApplicationPageStepDef.click_View_Transmittals_button()[0m
+    [36mThen [0m[36mView Submission button to check submission[0m                                      [90m# ApplicationPageStepDef.view_Submission_button_to_check_submission()[0m
+    [36mThen [0m[36mcheck Download Data from XML file[0m                                               [90m# ApplicationPageStepDef.check_Download_Data_from_XML_file()[0m
+      [31morg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=77.0.3865.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALXLWX2304', ip: '10.120.5.31', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.75, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\MABABA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63473}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d38271d28f803bd4004181419890afce
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at utilities.TestBase.TearDown(TestBase.java:74)
+	at stepdefination.Hooks.tearDown(Hooks.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runtime.HookDefinitionMatch.runStep(HookDefinitionMatch.java:14)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.TestCase.run(TestCase.java:53)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+[0m
