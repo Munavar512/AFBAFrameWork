@@ -1,10 +1,76 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="18.052411">
-    <testcase classname="login Feature" name="print something" time="18.052411">
-        <system-out>
-            <![CDATA[Given okay..................................................................passed
-Then Bye....................................................................passed
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="24.367001">
+    <testcase classname="application Feature" name="eApp application Feature test Scenario" time="24.367001">
+        <failure message="org.openqa.selenium.NoSuchWindowException: no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=77.0.3865.75)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'ALXLWX2304', ip: '10.120.5.31', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.75, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\MABABA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63473}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: d38271d28f803bd4004181419890afce&#10;*** Element info: {Using=xpath, value=//button[@class='btn btn-success btn-next']}&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)&#13;&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#13;&#10;&#9;at com.sun.proxy.$Proxy18.click(Unknown Source)&#13;&#10;&#9;at stepdefination.ApplicationPageStepDef.cilck_the_Next_button(ApplicationPageStepDef.java:168)&#13;&#10;&#9;at ✽.cilck the Next button(MyFeatures/application.feature:28)&#13;&#10;">
+            <![CDATA[When User enter HomePage to click Manage cases button.......................passed
+Then User input search to find AFBA case....................................passed
+And click the AFBA case.....................................................passed
+Then create New Enrollment..................................................passed
+Then User input Sponsor SSN and click Next button...........................passed
+And User input Sponsor firstName, lastName, dateOfBirth.....................passed
+And User select Eligibility, BranchOfService, DutyStatus, Rank and Contribution Mode.passed
+Then User input DepartmentCode and SourceCode...............................passed
+Then User click Show Coverage Options button................................passed
+And User select firstOption.................................................passed
+Then User click Next button.................................................passed
+And User select yes or No for Other Insurance option........................passed
+Then User select Yes or No for Better Alternative options...................passed
+Then cilck the Next button..................................................failed
+And User select Sponsor gender..............................................skipped
+Then User input Sponsor height and weight...................................skipped
+Then User input Sponsor address, Email and contact numbers..................skipped
+Then User click Next button.................................................skipped
+And User click Next button..................................................skipped
+And User enter Sponsor beneficiary fullName SSN Relationship DOB............skipped
+Then User click Next buuton for next step...................................skipped
+Then User click Deducation day..............................................skipped
+Then User select Deducation day.............................................skipped
+And User input Credit Card Number, Expiration Date and Cvv..................skipped
+Then User click Signing in-person button....................................skipped
+Then User click I agree to this coverage and ready to sign button...........skipped
+Then User click the Review Application Ducuments............................skipped
+Then User Close the Application.............................................skipped
+Then User select Paper radio button.........................................skipped
+And User input sponsor lastName.............................................skipped
+And User input Last four SSN number.........................................skipped
+Then User Click Sign button.................................................skipped
+And User click Sign button for Angent eSignature............................skipped
+Then back to Home page......................................................skipped
+And click View Transmittals button..........................................skipped
+Then View Submission button to check submission.............................skipped
+Then check Download Data from XML file......................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=77.0.3865.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALXLWX2304', ip: '10.120.5.31', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.75, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\MABABA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63473}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d38271d28f803bd4004181419890afce
+*** Element info: {Using=xpath, value=//button[@class='btn btn-success btn-next']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at stepdefination.ApplicationPageStepDef.cilck_the_Next_button(ApplicationPageStepDef.java:168)
+	at ✽.cilck the Next button(MyFeatures/application.feature:28)
 ]]>
-        </system-out>
+        </failure>
     </testcase>
 </testsuite>

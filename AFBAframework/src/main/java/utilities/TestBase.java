@@ -3,24 +3,27 @@ package utilities;
 import java.util.concurrent.TimeUnit;
 
 import org.junit.Assert;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import SalesforceFlashingPages.SalesforceFlashingPage;
 import cucumber.api.Scenario;
 import pages.AllPagefactories;
 import pages.LoginPage;
+import pages.MemberLoginPage;
 
-public class TestBase {
+public abstract class TestBase {
 	
 	protected static WebDriver driver;
 	protected static WebDriverWait wait;
 	protected static Actions act;
+	protected static JavascriptExecutor js;
 	
-	
-	
+
 	protected static void LogIn() {
 		
 		Assert.assertTrue(driver.getTitle().contains("Login"));
@@ -32,6 +35,27 @@ public class TestBase {
 	}
 	
 	
+	protected static void MemberLogIn() {	
+		MemberLoginPage.MemberLoginBtn.click();
+		MemberLoginPage.UserName.sendKeys("rams.mallipeddi@gmail.com.eleanor");
+		MemberLoginPage.Password.sendKeys("Test12345");
+		MemberLoginPage.LoginBtn.click();
+		act.pause(3000).perform();
+		MemberLoginPage.RequestBenefChangeBtn.click();
+		act.pause(2000).perform();
+		
+	}
+	
+
+	protected static void FlashingPage() {
+		SalesforceFlashingPage.ContactsBtn.click();
+		SalesforceFlashingPage.ViewSearch.click();
+		SalesforceFlashingPage.ContactWithBalmastMobileOption.click();
+		SalesforceFlashingPage.GoBtn.click();
+		act.pause(3000).perform();
+		
+	}
+	
 	protected static void SetUp() {
 		driver=Driver.getDriver();
 		driver.get(ConfigurationReader.getProperty("url"));
@@ -42,19 +66,15 @@ public class TestBase {
 		
 		// this is to run all page factories:
 		new AllPagefactories();
+
 	}
 	
 	protected static void TearDown(Scenario scenario) {
 		if (scenario.isFailed()) 		
 			scenario.embed(((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES), "image/png");
 		
-		
 			Driver.closeDriver();
+			
 	}
-	
-	
-	
-	
-	
 
 }

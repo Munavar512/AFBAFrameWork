@@ -15,16 +15,16 @@ import cucumber.api.junit.Cucumber;
 						"junit:CucumberReports/Junit/MyJunitReport.xml",
 						"pretty:CucumberReports/Pretty/MyPretty.txt",
 						"usage:CucumberReports/Usage/UsageReport.xml"
-				
 				},
+				
 		features = "MyFeatures"
 		,glue = "stepdefination",
 		dryRun = false,
-		tags = {"@Test01" }
+		//tags = {"@Test05","@Test06","@Test07"}
+		tags = {"@Test01"}
 		
 		)
 
 public class TestRunner {
-
 
 }

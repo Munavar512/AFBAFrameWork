@@ -16,12 +16,7 @@ import utilities.TestBase;
 	    public static WebElement password;
 
 	    @FindBy(xpath = "//button[@type='submit']")
-	    public static WebElement loginBtn;
-
-	    
-	    
-	   
-	    
+	    public static WebElement loginBtn; 
 
 	}
 	

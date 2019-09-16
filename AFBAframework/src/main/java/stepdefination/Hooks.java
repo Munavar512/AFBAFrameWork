@@ -20,6 +20,19 @@ public class Hooks extends TestBase {
 			
 		}
 		
+//		@Before(order = 3)
+//		public void flashingPage() {
+//			
+//			FlashingPage();
+//		}
+		
+//		@Before(order = 4)
+//		public void memberlogin() {
+//			MemberLogIn();
+//			
+//		}
+		
+	
 		
 		@After
 		public void tearDown(Scenario scenario) {
