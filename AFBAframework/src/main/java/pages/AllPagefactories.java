@@ -17,7 +17,6 @@ import SalesforceFlashingPages.SalesforceFlashingPage6;
 import SalesforceFlashingPages.SalesforceFlashingPage7;
 import SalesforceFlashingPages.SalesforceFlashingPage8;
 import SalesforceFlashingPages.SalesforceFlashingPage9;
-import eApp.eAppApplication;
 import utilities.TestBase;
 
 public class AllPagefactories extends TestBase{
@@ -67,7 +66,7 @@ public class AllPagefactories extends TestBase{
 			
 			PageFactory.initElements(driver, NewRequest3.class);
 			
-			PageFactory.initElements(driver, eAppApplication.class);
+		
 			
 	
 			
