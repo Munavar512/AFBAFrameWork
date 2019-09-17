@@ -10,11 +10,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import SalesforceFlashingPages.MemberLoginPage;
 import SalesforceFlashingPages.SalesforceFlashingPage;
 import cucumber.api.Scenario;
 import pages.AllPagefactories;
 import pages.LoginPage;
-import pages.MemberLoginPage;
 
 public abstract class TestBase {
 	

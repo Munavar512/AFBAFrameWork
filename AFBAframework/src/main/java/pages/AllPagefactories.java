@@ -3,12 +3,11 @@ package pages;
 import org.openqa.selenium.support.PageFactory;
 
 import SalesforceFlashingPages.MarketingPage;
+import SalesforceFlashingPages.MemberLoginPage;
 import SalesforceFlashingPages.SalesforceFlashingPage;
 import SalesforceFlashingPages.SalesforceFlashingPage1;
 import SalesforceFlashingPages.SalesforceFlashingPage10;
 import SalesforceFlashingPages.SalesforceFlashingPage11;
-import SalesforceFlashingPages.SalesforceFlashingPage12;
-import SalesforceFlashingPages.SalesforceFlashingPage13;
 import SalesforceFlashingPages.SalesforceFlashingPage2;
 import SalesforceFlashingPages.SalesforceFlashingPage3;
 import SalesforceFlashingPages.SalesforceFlashingPage4;
@@ -54,10 +53,6 @@ public class AllPagefactories extends TestBase{
 			
 			PageFactory.initElements(driver, SalesforceFlashingPage11.class);
 			
-			PageFactory.initElements(driver, SalesforceFlashingPage12.class);
-			
-			PageFactory.initElements(driver, SalesforceFlashingPage13.class);
-			
 			PageFactory.initElements(driver, MemberLoginPage.class);
 			
 			PageFactory.initElements(driver, NewRequest1.class);
@@ -65,6 +60,9 @@ public class AllPagefactories extends TestBase{
 			PageFactory.initElements(driver, NewRequest2.class);
 			
 			PageFactory.initElements(driver, NewRequest3.class);
+			
+			PageFactory.initElements(driver, eAppApplication.class);
+
 			
 		
 			

@@ -32,7 +32,7 @@ public class ApplicationPageStepDef extends TestBase {
     @Then("User input Sponsor SSN and click Next button")
     public void user_input_Sponsor_SSN_and_click_Next_button() {
     	ApplicationPage.SSNnumber.click();
-    	ApplicationPage.SSNnumber.sendKeys("111111165");
+    	ApplicationPage.SSNnumber.sendKeys("111111155");
     	act.pause(2000).perform();
     	ApplicationPage.ClickNextBtn.click();
     	ApplicationPage.ClickBiginEnrollement.click();
@@ -333,7 +333,7 @@ public class ApplicationPageStepDef extends TestBase {
     @Then("User input Last four SSN number")
     public void user_input_Last_four_SSN_number() {
         ApplicationPage.SponsorLastSSN.click();
-        ApplicationPage.SponsorLastSSN.sendKeys("1165");
+        ApplicationPage.SponsorLastSSN.sendKeys("1155");
         //ApplicationPage.SponsorLastSSN.click();
     }
 

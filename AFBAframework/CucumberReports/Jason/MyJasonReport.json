@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 6699087100,
+              "duration": 5436373100,
               "status": "passed"
             },
             "match": {
@@ -15,7 +15,7 @@
           },
           {
             "result": {
-              "duration": 4490925200,
+              "duration": 4639445700,
               "status": "passed"
             },
             "match": {
@@ -30,7 +30,7 @@
         "after": [
           {
             "result": {
-              "duration": 2959649100,
+              "duration": 3004455500,
               "status": "passed"
             },
             "match": {
@@ -43,452 +43,40 @@
         "steps": [
           {
             "result": {
-              "duration": 782871000,
+              "duration": 947366100,
               "status": "passed"
             },
             "line": 6,
-            "name": "User enter HomePage to click Manage cases button",
+            "name": "HomePage to click Manage cases button",
             "match": {
-              "location": "ApplicationPageStepDef.user_enter_HomePage_to_click_Manage_cases_button()"
+              "location": "eAppApplicationStepDef.homepage_to_click_Manage_cases_button()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 194702800,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 7,
-            "name": "User input search to find AFBA case",
-            "match": {
-              "location": "ApplicationPageStepDef.user_input_search_to_find_AFBA_case()"
-            },
+            "name": "Input search AFBA case",
+            "match": {},
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 2482154200,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 8,
-            "name": "click the AFBA case",
+            "name": "click the case",
             "match": {
-              "location": "ApplicationPageStepDef.click_the_AFBA_case()"
+              "location": "eAppApplicationStepDef.click_the_case()"
             },
             "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2294698100,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "create New Enrollment",
-            "match": {
-              "location": "ApplicationPageStepDef.create_New_Enrollment()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3502557700,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "User input Sponsor SSN and click Next button",
-            "match": {
-              "location": "ApplicationPageStepDef.user_input_Sponsor_SSN_and_click_Next_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 652080600,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "User input Sponsor firstName, lastName, dateOfBirth",
-            "match": {
-              "location": "ApplicationPageStepDef.user_input_Sponsor_firstName_lastName_dateOfBirth()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 410923900,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "User select Eligibility, BranchOfService, DutyStatus, Rank and Contribution Mode",
-            "match": {
-              "location": "ApplicationPageStepDef.user_select_Eligibility_BranchOfService_DutyStatus_Rank_and_Contribution_Mode()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 275638100,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "User input DepartmentCode and SourceCode",
-            "match": {
-              "location": "ApplicationPageStepDef.user_input_DepartmentCode_and_SourceCode()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2225899700,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "User click Show Coverage Options button",
-            "match": {
-              "location": "ApplicationPageStepDef.user_click_Show_Coverage_Options_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 630598600,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "User select firstOption",
-            "match": {
-              "location": "ApplicationPageStepDef.user_select_firstOption()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 154919300,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "User click Next button",
-            "match": {
-              "location": "ApplicationPageStepDef.User_click_Next_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 225185600,
-              "status": "passed"
-            },
-            "line": 24,
-            "name": "User select yes or No for Other Insurance option",
-            "match": {
-              "location": "ApplicationPageStepDef.user_select_yes_or_No_for_Other_Insurance_option()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 668409800,
-              "status": "passed"
-            },
-            "line": 25,
-            "name": "User select Yes or No for Better Alternative options",
-            "match": {
-              "location": "ApplicationPageStepDef.user_select_Yes_or_No_for_Better_Alternative_options()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 91954000,
-              "status": "passed"
-            },
-            "line": 28,
-            "name": "cilck the Next button",
-            "match": {
-              "location": "ApplicationPageStepDef.cilck_the_Next_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 102434500,
-              "status": "passed"
-            },
-            "line": 30,
-            "name": "User select Sponsor gender",
-            "match": {
-              "location": "ApplicationPageStepDef.user_select_Sponsor_gender()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 523736600,
-              "status": "passed"
-            },
-            "line": 31,
-            "name": "User input Sponsor height and weight",
-            "match": {
-              "location": "ApplicationPageStepDef.user_input_Sponsor_height_and_weight()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5943329400,
-              "status": "passed"
-            },
-            "line": 32,
-            "name": "User input Sponsor address, Email and contact numbers",
-            "match": {
-              "location": "ApplicationPageStepDef.user_input_Sponsor_address_Email_and_contact_numbers()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 177887000,
-              "status": "passed"
-            },
-            "line": 33,
-            "name": "User click Next button",
-            "match": {
-              "location": "ApplicationPageStepDef.User_click_Next_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 97760400,
-              "status": "passed"
-            },
-            "line": 38,
-            "name": "User click Next button",
-            "match": {
-              "location": "ApplicationPageStepDef.User_click_Next_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2729152200,
-              "status": "passed"
-            },
-            "line": 44,
-            "name": "User enter Sponsor beneficiary fullName SSN Relationship DOB",
-            "match": {
-              "location": "ApplicationPageStepDef.user_enter_Sponsor_beneficiary_fullName_SSN_Relationship_DOB()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 114812700,
-              "status": "passed"
-            },
-            "line": 45,
-            "name": "User click Next buuton for next step",
-            "match": {
-              "location": "ApplicationPageStepDef.user_click_Next_buuton_for_next_step()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1100987300,
-              "status": "passed"
-            },
-            "line": 46,
-            "name": "User click Deducation day",
-            "match": {
-              "location": "ApplicationPageStepDef.user_click_Deducation_day()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 115188300,
-              "status": "passed"
-            },
-            "line": 47,
-            "name": "User select Deducation day",
-            "match": {
-              "location": "ApplicationPageStepDef.user_select_Deducation_day()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2529129900,
-              "status": "passed"
-            },
-            "line": 48,
-            "name": "User input Credit Card Number, Expiration Date and Cvv",
-            "match": {
-              "location": "ApplicationPageStepDef.user_input_Credit_Card_Number_Expiration_Date_and_Cvv()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 154734100,
-              "status": "passed"
-            },
-            "line": 49,
-            "name": "User click Signing in-person button",
-            "match": {
-              "location": "ApplicationPageStepDef.user_click_Signing_in_person_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4153789200,
-              "status": "passed"
-            },
-            "line": 50,
-            "name": "User click I agree to this coverage and ready to sign button",
-            "match": {
-              "location": "ApplicationPageStepDef.user_click_I_agree_to_this_coverage_and_ready_to_sign_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5173014400,
-              "status": "passed"
-            },
-            "line": 51,
-            "name": "User click the Review Application Ducuments",
-            "match": {
-              "location": "ApplicationPageStepDef.user_click_the_Review_Application_Ducuments()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 179526400,
-              "status": "passed"
-            },
-            "line": 52,
-            "name": "User Close the Application",
-            "match": {
-              "location": "ApplicationPageStepDef.user_Close_the_Application()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2178245900,
-              "status": "passed"
-            },
-            "line": 54,
-            "name": "User select Paper radio button",
-            "match": {
-              "location": "ApplicationPageStepDef.user_select_Paper_radio_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 190703200,
-              "status": "passed"
-            },
-            "line": 55,
-            "name": "User input sponsor lastName",
-            "match": {
-              "location": "ApplicationPageStepDef.user_input_sponsor_lastName()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 146256700,
-              "status": "passed"
-            },
-            "line": 56,
-            "name": "User input Last four SSN number",
-            "match": {
-              "location": "ApplicationPageStepDef.user_input_Last_four_SSN_number()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 4215802700,
-              "status": "passed"
-            },
-            "line": 57,
-            "name": "User Click Sign button",
-            "match": {
-              "location": "ApplicationPageStepDef.user_Click_Sign_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 7134559100,
-              "status": "passed"
-            },
-            "line": 58,
-            "name": "User click Sign button for Angent eSignature",
-            "match": {
-              "location": "ApplicationPageStepDef.user_click_Sign_button_for_Angent_eSignature()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1451183300,
-              "status": "passed"
-            },
-            "line": 59,
-            "name": "back to Home page",
-            "match": {
-              "location": "ApplicationPageStepDef.back_to_Home_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2364440600,
-              "status": "passed"
-            },
-            "line": 60,
-            "name": "click View Transmittals button",
-            "match": {
-              "location": "ApplicationPageStepDef.click_View_Transmittals_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 5148463000,
-              "status": "passed"
-            },
-            "line": 61,
-            "name": "View Submission button to check submission",
-            "match": {
-              "location": "ApplicationPageStepDef.view_Submission_button_to_check_submission()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3439567800,
-              "status": "passed"
-            },
-            "line": 62,
-            "name": "check Download Data from XML file",
-            "match": {
-              "location": "ApplicationPageStepDef.check_Download_Data_from_XML_file()"
-            },
-            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@Test01"
+            "name": "@eApp"
           }
         ]
       }
@@ -497,10 +85,219 @@
     "description": "",
     "id": "application-feature",
     "keyword": "Feature",
-    "uri": "MyFeatures/application.feature",
+    "uri": "MyFeatures/eApp1.feature",
     "tags": [
       {
-        "name": "@Test01",
+        "name": "@eApp",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ALXLWX2304\u0027, ip: \u002710.120.5.31\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002712.0.2\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat utilities.TestBase.SetUp(TestBase.java:61)\r\n\tat stepdefination.Hooks.setUp(Hooks.java:13)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.HookDefinitionMatch.runStep(HookDefinitionMatch.java:14)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:55)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:42)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:41)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:44)\r\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)\r\n",
+              "duration": 12728400,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ALXLWX2304\u0027, ip: \u002710.120.5.31\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002712.0.2\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)\r\n\tat utilities.TestBase.LogIn(TestBase.java:29)\r\n\tat stepdefination.Hooks.login(Hooks.java:19)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.HookDefinitionMatch.runStep(HookDefinitionMatch.java:14)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:55)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:42)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:41)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:44)\r\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)\r\n",
+              "duration": 236700,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Hooks.login()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "eApp application Feature test Scenario",
+        "description": "",
+        "id": "eapp-application-feature;eapp-application-feature-test-scenario",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ALXLWX2304\u0027, ip: \u002710.120.5.31\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002712.0.2\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat utilities.TestBase.TearDown(TestBase.java:74)\r\n\tat stepdefination.Hooks.tearDown(Hooks.java:39)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.HookDefinitionMatch.runStep(HookDefinitionMatch.java:14)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:55)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:42)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:53)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:44)\r\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)\r\n",
+              "duration": 312200,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "HomePage to click Manage cases button",
+            "match": {
+              "location": "eAppApplicationStepDef.homepage_to_click_Manage_cases_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Enrollment Cases to search AFBA case",
+            "match": {
+              "location": "eAppApplicationStepDef.enrollment_Cases_to_search_AFBA_case()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Click AFBA case to open it",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Create New Enrollment",
+            "match": {
+              "location": "eAppApplicationStepDef.create_New_Enrollment()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Input Sponsor SSN number and click Next button",
+            "match": {
+              "location": "eAppApplicationStepDef.input_Sponsor_SSN_number_and_click_Next_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Input Sponsor firstName, lastName, dateOfBirth",
+            "match": {
+              "location": "eAppApplicationStepDef.input_Sponsor_firstName_lastName_dateOfBirth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Select Eligibility options, Branch of Servive, Duty Status, Rank and Contribution Mode",
+            "match": {
+              "location": "eAppApplicationStepDef.select_Eligibility_options_Branch_of_Servive_Duty_Status_Rank_and_Contribution_Mode()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Input Department Code and Source Code",
+            "match": {
+              "location": "eAppApplicationStepDef.input_Department_Code_and_Source_Code()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Input Street1, Street2, City, ST, Zip",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 12
+                },
+                {
+                  "val": "2",
+                  "offset": 21
+                }
+              ],
+              "location": "eAppApplicationStepDef.input_Street_Street_City_ST_Zip(Integer,Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Input Email Address",
+            "match": {
+              "location": "eAppApplicationStepDef.input_Email_Address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "Input Daytime phoe",
+            "match": {
+              "location": "eAppApplicationStepDef.input_Daytime_phoe()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Second phone",
+            "match": {
+              "location": "eAppApplicationStepDef.second_phone()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@eApp"
+          }
+        ]
+      }
+    ],
+    "name": "eApp Application Feature",
+    "description": "",
+    "id": "eapp-application-feature",
+    "keyword": "Feature",
+    "uri": "MyFeatures/eAppAplication.feature",
+    "tags": [
+      {
+        "name": "@eApp",
         "type": "Tag",
         "location": {
           "line": 1,

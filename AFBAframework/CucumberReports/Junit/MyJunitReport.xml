@@ -1,45 +1,78 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="78.18896">
-    <testcase classname="application Feature" name="eApp application Feature test Scenario" time="78.18896">
-        <system-out>
-            <![CDATA[When User enter HomePage to click Manage cases button.......................passed
-Then User input search to find AFBA case....................................passed
-And click the AFBA case.....................................................passed
-Then create New Enrollment..................................................passed
-Then User input Sponsor SSN and click Next button...........................passed
-And User input Sponsor firstName, lastName, dateOfBirth.....................passed
-And User select Eligibility, BranchOfService, DutyStatus, Rank and Contribution Mode.passed
-Then User input DepartmentCode and SourceCode...............................passed
-Then User click Show Coverage Options button................................passed
-And User select firstOption.................................................passed
-Then User click Next button.................................................passed
-And User select yes or No for Other Insurance option........................passed
-Then User select Yes or No for Better Alternative options...................passed
-Then cilck the Next button..................................................passed
-And User select Sponsor gender..............................................passed
-Then User input Sponsor height and weight...................................passed
-Then User input Sponsor address, Email and contact numbers..................passed
-Then User click Next button.................................................passed
-And User click Next button..................................................passed
-And User enter Sponsor beneficiary fullName SSN Relationship DOB............passed
-Then User click Next buuton for next step...................................passed
-Then User click Deducation day..............................................passed
-Then User select Deducation day.............................................passed
-And User input Credit Card Number, Expiration Date and Cvv..................passed
-Then User click Signing in-person button....................................passed
-Then User click I agree to this coverage and ready to sign button...........passed
-Then User click the Review Application Ducuments............................passed
-Then User Close the Application.............................................passed
-Then User select Paper radio button.........................................passed
-And User input sponsor lastName.............................................passed
-And User input Last four SSN number.........................................passed
-Then User Click Sign button.................................................passed
-And User click Sign button for Angent eSignature............................passed
-Then back to Home page......................................................passed
-And click View Transmittals button..........................................passed
-Then View Submission button to check submission.............................passed
-Then check Download Data from XML file......................................passed
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="2" time="14.110262">
+    <testcase classname="application Feature" name="eApp application Feature test Scenario" time="14.055407">
+        <skipped>
+            <![CDATA[When HomePage to click Manage cases button..................................passed
+Then Input search AFBA case.................................................undefined
+And click the case..........................................................skipped
 ]]>
-        </system-out>
+        </skipped>
+    </testcase>
+    <testcase classname="eApp Application Feature" name="eApp application Feature test Scenario" time="0.054855">
+        <failure message="org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'ALXLWX2304', ip: '10.120.5.31', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'&#10;Driver info: driver.version: RemoteWebDriver&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)&#13;&#10;&#9;at utilities.TestBase.SetUp(TestBase.java:61)&#13;&#10;&#9;at stepdefination.Hooks.setUp(Hooks.java:13)&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;&#10;&#9;at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;&#10;&#9;at java.base/java.lang.reflect.Method.invoke(Method.java:567)&#13;&#10;&#9;at cucumber.runtime.Utils$1.call(Utils.java:26)&#13;&#10;&#9;at cucumber.runtime.Timeout.timeout(Timeout.java:16)&#13;&#10;&#9;at cucumber.runtime.Utils.invoke(Utils.java:20)&#13;&#10;&#9;at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)&#13;&#10;&#9;at cucumber.runtime.HookDefinitionMatch.runStep(HookDefinitionMatch.java:14)&#13;&#10;&#9;at cucumber.runner.TestStep.executeStep(TestStep.java:55)&#13;&#10;&#9;at cucumber.runner.TestStep.run(TestStep.java:42)&#13;&#10;&#9;at cucumber.runner.TestCase.run(TestCase.java:41)&#13;&#10;&#9;at cucumber.runner.Runner.runPickle(Runner.java:44)&#13;&#10;&#9;at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)&#13;&#10;&#9;at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)&#13;&#10;&#9;at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;&#10;&#9;at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)&#13;&#10;&#9;at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)&#13;&#10;&#9;at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;&#10;&#9;at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)&#13;&#10;">
+            <![CDATA[When HomePage to click Manage cases button..................................skipped
+Then Enrollment Cases to search AFBA case...................................skipped
+And Click AFBA case to open it..............................................undefined
+Then Create New Enrollment..................................................skipped
+Then Input Sponsor SSN number and click Next button.........................skipped
+And Input Sponsor firstName, lastName, dateOfBirth..........................skipped
+Then Select Eligibility options, Branch of Servive, Duty Status, Rank and Contribution Mode.skipped
+And Input Department Code and Source Code...................................skipped
+Then Input Street1, Street2, City, ST, Zip..................................skipped
+And Input Email Address.....................................................skipped
+Then Input Daytime phoe.....................................................skipped
+And Second phone............................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALXLWX2304', ip: '10.120.5.31', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at utilities.TestBase.SetUp(TestBase.java:61)
+	at stepdefination.Hooks.setUp(Hooks.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runtime.HookDefinitionMatch.runStep(HookDefinitionMatch.java:14)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.TestCase.run(TestCase.java:41)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+]]>
+        </failure>
     </testcase>
 </testsuite>

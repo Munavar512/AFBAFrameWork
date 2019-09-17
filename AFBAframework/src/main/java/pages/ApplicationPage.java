@@ -59,6 +59,8 @@ public class ApplicationPage {
 	@FindBy(className ="child_first")
 	public static WebElement ChildFirstNam;
 	
+	
+	
 	@FindBy(xpath= "//option[@value='Military']")
 	public static WebElement Eligibility ;
 	
@@ -80,8 +82,33 @@ public class ApplicationPage {
 	@FindBy(xpath="//input[@name='sourceCode']")
 	public static WebElement SourceCode;
 	
+	@FindBy(xpath="//*[@id='eeStreet1']")
+	public static WebElement Street;
+	
+	@FindBy (xpath="//*[@id='eeStreet2']")
+	public static WebElement Street2;
+	
+	@FindBy(xpath="//*[@id='eeCity']")
+	public static WebElement City;
+	
+	@FindBy(xpath="//*[@id='eeState']")
+	public static WebElement State;
+	
+	@FindBy(xpath="//input[@id='eeZip']")
+	public static WebElement ZipCode;
+	
+	@FindBy(xpath="//input[@id='email']")
+	public static WebElement EmailAddress;
+	
+	@FindBy(xpath="//input[@id='email_repeat']")
+	public static WebElement ReEmailAddress;
+	
+	@FindBy(xpath ="//input[@id='phone']")
+	public static WebElement Phone;
+	
 	@FindBy(xpath="//*[contains(text(),'Show Coverage Options')]")
 	public static WebElement ShowCoverageOptopnBtn;
+	
 	
 	@FindBy(xpath="//a[@class='btn btn-block btn-sm btn-danger']")
 	public static WebElement SelectOption;
@@ -166,30 +193,6 @@ public class ApplicationPage {
 	
 	@FindBy (xpath = "//*[@id='step3-form']/div[8]/div/input")
 	public static WebElement Weight;
-	
-	@FindBy(xpath="//*[@id='eeStreet1']")
-	public static WebElement Street;
-	
-	@FindBy (xpath="//*[@id='eeStreet2']")
-	public static WebElement Street2;
-	
-	@FindBy(xpath="//*[@id='eeCity']")
-	public static WebElement City;
-	
-	@FindBy(xpath="//*[@id='eeState']")
-	public static WebElement State;
-	
-	@FindBy(xpath="//input[@id='eeZip']")
-	public static WebElement ZipCode;
-	
-	@FindBy(xpath="//input[@id='email']")
-	public static WebElement EmailAddress;
-	
-	@FindBy(xpath="//input[@id='email_repeat']")
-	public static WebElement ReEmailAddress;
-	
-	@FindBy(xpath ="//input[@id='phone']")
-	public static WebElement Phone;
 	
 	@FindBy(xpath ="//div[@class='wizard-actions']/button[2]")
 	public static WebElement NextBtn3;
